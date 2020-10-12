@@ -1,4 +1,4 @@
-package _04_tea_maker;
+package _03_tea_maker;
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2019
  *    Level 1

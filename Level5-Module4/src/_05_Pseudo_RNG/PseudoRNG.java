@@ -15,19 +15,19 @@ public class PseudoRNG {
 	long xorShift(long seed){
 		//1. Shift seed to the left 13 bits and save the result
 		
-		//2. xor shift seed by the result of step 1 and save that result
+		//2. xor seed by the result of step 1 and save that result
 		
 		//3. Set seed equal to the result of step 2
 	
 		//4. Shift seed to the right 7 bits and save the result
 		
-		//5. xor shift seed by the result of step 4 and save that result
+		//5. xor seed by the result of step 4 and save that result
 				
 		//6. Set seed equal to the result of step 5
 		
 		//7. Shift seed to the left 17 bits and save the result
 		
-		//8. xor shift seed by the result of step 7 and save that result
+		//8. xor seed by the result of step 7 and save that result
 				
 		//9. Set seed equal to the result of step 8
 		

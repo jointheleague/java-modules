@@ -38,7 +38,7 @@ public class WorldClocks implements ActionListener {
         clockUtil = new ClockUtilities();
 
         // The format for the city must be: city, country
-        timeZone = clockUtil.getTimeZoneFromCityName("New York, US");
+        timeZone = clockUtil.getTimeZoneFromCityName("Chicago, US");
         
         Calendar calendar = Calendar.getInstance(timeZone);
         String month = calendar.getDisplayName(Calendar.MONTH, Calendar.LONG, Locale.getDefault());

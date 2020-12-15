@@ -56,7 +56,7 @@ class MeetingSchedulerTest {
 
     @Test
     void BossAndWorker() {
-        Schedule s = MeetingScheduler.getMutualAvailability(boss, worker);
+        Schedule s = MeetingSchedulerSolution.getMutualAvailability(boss, worker);
         HashMap<String, ArrayList<Integer>> availability = s.getSchedule();
         
         assertTrue(availability.get("Monday").size() == 1);
@@ -68,7 +68,7 @@ class MeetingSchedulerTest {
 
     @Test
     void WorkerandClient() {
-        Schedule s = MeetingScheduler.getMutualAvailability(worker, client);
+        Schedule s = MeetingSchedulerSolution.getMutualAvailability(worker, client);
         HashMap<String, ArrayList<Integer>> availability = s.getSchedule();
         
         assertTrue(availability.get("Friday").size() == 1);
@@ -77,7 +77,7 @@ class MeetingSchedulerTest {
     
     @Test
     void clientAndCeo() {
-        Schedule s = MeetingScheduler.getMutualAvailability(client, ceo);
+        Schedule s = MeetingSchedulerSolution.getMutualAvailability(client, ceo);
         HashMap<String, ArrayList<Integer>> availability = s.getSchedule();
         
         assertTrue(availability.get("Friday").size() == 1);
@@ -86,7 +86,7 @@ class MeetingSchedulerTest {
     
     @Test
     void BossAndCeo() {
-        Schedule s = MeetingScheduler.getMutualAvailability(boss, ceo);
+        Schedule s = MeetingSchedulerSolution.getMutualAvailability(boss, ceo);
         HashMap<String, ArrayList<Integer>> availability = s.getSchedule();
         
         assertTrue(availability.get("Monday").size() == 2);

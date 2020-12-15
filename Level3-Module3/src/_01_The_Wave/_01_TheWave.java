@@ -3,7 +3,6 @@ package _01_The_Wave;
 import java.util.ArrayList;
 
 public class _01_TheWave {
-
     /*
      * Background:
      * "The wave (known as the Mexican wave in the English-speaking world

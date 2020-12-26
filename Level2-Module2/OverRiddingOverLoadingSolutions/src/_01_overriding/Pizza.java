@@ -1,4 +1,4 @@
-package _01_overridding;
+package _01_overriding;
 
 import java.io.IOException;
 

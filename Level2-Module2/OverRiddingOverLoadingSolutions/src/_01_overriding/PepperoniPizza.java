@@ -1,4 +1,4 @@
-package _01_overridding;
+package _01_overriding;
 
 /*
  * GOAL: Override the show() and receipt() methods from Pizza

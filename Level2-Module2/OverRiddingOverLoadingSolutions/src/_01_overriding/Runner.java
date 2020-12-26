@@ -1,4 +1,4 @@
-package _01_overridding;
+package _01_overriding;
 
 /*
  * We should see a regular pizza and a pepperoni pizza

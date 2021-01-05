@@ -9,41 +9,63 @@ public class PseudoRNG {
 	 * 
 	 */
 	
+	//1. Create a member variable of type long called "seed"
+	
+	//2. Make a constructor that initializes the memeber variable
+	
+	//3. Complete the steps inside the xorShift method
+	
+	//4. Complete the steps in the main method
+	
+	//5. Write your own pseudo random generation method. You can use the xor
+	//    shift as a guide. Use the main method to test it.
+	
+	
 	
 	// This is called the xor shift. It is a very simple algorithm to generate
 	// Pseudo random numbers. 
-	long xorShift(long seed){
-		//1. Shift seed to the left 13 bits and save the result
+	long xorShift(){
+		//1. Create a local long called seed and set it equal to the member variable 
+		//   We will only use the local variable for the rest of the method
 		
-		//2. xor seed by the result of step 1 and save that result
+		//2. Shift seed to the left 13 bits and save the result
 		
-		//3. Set seed equal to the result of step 2
+		//3. xor seed by the result of step 1 and save that result
+		
+		//4. Set seed equal to the result of step 2
 	
-		//4. Shift seed to the right 7 bits and save the result
+		//5. Shift seed to the right 7 bits and save the result
 		
-		//5. xor seed by the result of step 4 and save that result
+		//6. xor seed by the result of step 4 and save that result
 				
-		//6. Set seed equal to the result of step 5
+		//7. Set seed equal to the result of step 5
 		
-		//7. Shift seed to the left 17 bits and save the result
+		//8. Shift seed to the left 17 bits and save the result
 		
-		//8. xor seed by the result of step 7 and save that result
+		//9. xor seed by the result of step 7 and save that result
 				
-		//9. Set seed equal to the result of step 8
+		//10. Set seed equal to the result of step 8
 		
-		//10. change the line below to return seed
+		//11. change the line below to return seed
 		return 0;
 		
 		//For fun, see if you can rewrite the method using only 4 lines of code
 	}
 	
-	//12. Write your own pseudo random generation method. You can use the xor
-	//    shift as a guide. Use the main method to test it.
+	
 	
 	public static void main(String[] args) {
-		// 11. Test out your xorShift method here. You can
-		//     use System.currentTimeMillis as the seed to get
-		//     different results each run.
+	
+		//1. Create a PseudoRNG object with any seed. 
+		
+		//2. Print the result of xorShift() 3 times and note the random numbers. 
+		
+		//3. Create a secon PSeudoRNG object with a different seed and print the result of xorShift 3 times.
+		
+		//4. Run the tests a second time and notice that 3 random numbers are the same because the seed generates the same sequence of random numbers.
+		
+		//If you would like to set the seed with a number that is hard to predict, you can use System.currentTimeMillis().
+	
 	}
 }
 
